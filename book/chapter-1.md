@@ -4,7 +4,7 @@
 ## Процедурная абстракция
 ## Procedural Abstraction
 
-Компьютерные специалисты изучают обработку информации. В этой первой части книги мы сосредоточим наше внимание на определении характера этой обработки, а не на характере обрабатываемой информации. (Последний раздел посвящен частям II и III). В этой части книги мы рассмотрим процедуры обработки только нескольких простых видов данных, таких как числа и изображения; В заключительной главе части I мы рассмотрим процедуры обработки других процедур.
+Компьютерные специалисты изучают обработку информации. В этой первой части книги мы сосредоточим наше внимание на определении характера этой обработки, а не на характере обрабатываемой информации. (Последнему посвящены части II и III). В этой части книги мы рассмотрим процедуры обработки только нескольких простых видов данных, таких как числа и изображения; В заключительной главе части I мы рассмотрим процедуры обработки других процедур.
 
 Computer scientists study the processing of information. In this first part of the book, we will focus our attention on specifying the nature of that processing, rather than on the nature of the information being processed. (The latter is the focus of Parts II and III.) For this part of the book, we will look at procedures for processing only a few simple kinds of data, such as numbers and images; in the final chapter of Part I, we will look at procedures for processing other procedures.
 
