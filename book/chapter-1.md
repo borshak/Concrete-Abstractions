@@ -30,6 +30,8 @@ What makes the process a computational process is that we study it in ways that 
 2. Далее, поскольку вторая буква (i) составляет примерно треть пути через алфавит, она открывается примерно на треть пути в f-секцию.
 3. Оказавшись немного позже в алфавите (фьорде), она затем сканирует назад простым способом, без каких-либо прыжков, пока не найдет fiduciary.
 
+--
+
 1. Because fiduciary starts with an f , she uses the dictionary’s index tabs to locate the f section. 
 2. Next, because the second letter (i) is about a third of the way through the alphabet, she opens to a point roughly a third of the way into the f section. 
 3. Finding herself slightly later in the alphabet (fjord), she then scans backward in a straightforward way, without any jumping about, until she finds fiduciary.
@@ -48,6 +50,8 @@ There are lots of questions one can ask about computational processes, such as:
 4. Есть ли эффекты, которые мы не можем достичь независимо от того, какой процесс мы укажем?
 5. Как мы создаем машину, которая автоматически выполняет процесс, который мы указали?
 6. Какие процессы в природном мире плодотворно анализируются в вычислительных терминах?
+
+--
 
 1. How do we describe one or specify which one we want carried out?
 2. How do we prove that a process has a particular effect?
