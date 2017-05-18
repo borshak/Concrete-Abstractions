@@ -1,5 +1,5 @@
 # Concrete-Abstractions
-Translations of the book "Concrete Abstractions" by Max Hailperin, Barbara Kaiser and Karl Knight
+Translations of the book "Concrete Abstractions" by Max Hailperin, Barbara Kaiser and Karl Knight.
 
 Original book placed at https://gustavus.edu/mcs/max/concrete-abstractions-pdfs/index.html
 and copyrighted.
