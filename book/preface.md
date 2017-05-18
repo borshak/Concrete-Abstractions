@@ -69,3 +69,33 @@ In short: this is an introduction for everyone.
 ### Технические предположения
 
 ### Technical Assumptions
+
+Чтобы полностью использовать эту книгу, вам понадобится доступ к компьютеру с реализацией языка программирования Scheme; Для последней главы вам также понадобится реализация языка программирования JavaTM версии 1.1 или более поздней. Большинство наших примеров должны работать практически на любой современной Схеме, так как мы использовали конструкции, определенные в так называемом «R4RS» стандарте для Scheme - Revised4 Report по Алгоритмической языковой схеме, который доступен на веб-сайте для этой книги, Расположенный по адресу http://www.pws.com/compsci/authors/hailperin. Доступны следующие материалы:
+
+To make full use of this book, you will need access to a computer with an implementation of the Scheme programming language; for the final chapter, you will also need an implementation of the JavaTM programming language, version 1.1 or later. Most of our examples should work on essentially any modern Scheme, since we have used constructs identified in the so-called “R4RS” standard for Scheme—the Revised4 Report on the Algorithmic Language Scheme, which is available on the web site for this book, located at http://www.pws.com/compsci/authors/hailperin. The following materials are available:
+
+- весь код, показанный в этом тексте, вместе с некоторым дополнительным кодом поддержки;
+- информация о получении различных реализаций Схемы и использовании их с этим текстом;
+- Java-апплеты, которые обеспечивают учебную поддержку, например моделирование;
+- манипулятивные (то есть физические материалы для экспериментов);
+- спецификация языка Схемы;
+- формы отчетности об ошибках и контактная информация автора;
+- список опечаток; 
+- советы для инструкторов.
+
+- all code shown in this text, together with some additional supporting code;
+- information on obtaining various Scheme implementations and using them with this text;
+- Java applets that provide instructional support, such as simulations;
+- manipulatives (i.e., physical materials to experiment with);
+- the Scheme language specification;
+- bug-reporting forms and author contact information;
+- a list of errata; and
+- tips for instructors.
+
+One notable exception is that we use graphics, even though there are no graphics operations defined in R4RS. Nearly every modern Scheme will have some form of graphics, but the details vary considerably. We have provided “library” files on our web site for each of several popular Scheme systems, so that if you load the library in before you begin work, the graphics operations we presume in this book will be available to you. The nonstandard Scheme features, such as graphics, that we use in the book are explained in the Appendix, as well as being identified where they are first used.
+
+Одно из примечательных исключений состоит в том, что мы используем графику, хотя графических операций, определенных в R4RS, не существует. Почти каждая современная схема будет иметь некоторую форму графики, но детали значительно различаются. Мы предоставили файлы «library» на нашем веб-сайте для каждой из нескольких популярных систем Scheme, поэтому, если вы загрузите библиотеку до начала работы, то графические операции, которые мы предполагаем в этой книге, будут доступны вам. Нестандартные функции Схемы, такие как графика, которые мы используем в книге, объясняются в Приложении, а также идентифицируются там, где они впервые используются.
+
+### Обучение с помощью этой книги
+
+### Teaching with This Book
