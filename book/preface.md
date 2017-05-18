@@ -99,3 +99,63 @@ One notable exception is that we use graphics, even though there are no graphics
 ### Обучение с помощью этой книги
 
 ### Teaching with This Book
+
+Достаточный материал здесь для покрытия где-то в диапазоне от двух четвертей до двух семестров, в зависимости от вашего темпа. Если вы хотите сократить материал, чтобы он соответствовал более короткому формату, зависимости между главами позволяют использовать ряд возможностей, помимо простого усечения в какой-то момент:
+
+Enough material is here to cover somewhere in the range from two quarters to two semesters, depending on your pace. If you want to cut material to fit a shorter format, the dependencies among the chapters allow for a number of possibilities beyond simply truncating at some point:
+
+- Глава 10 имеет лишь слабые связи с последующими главами, поэтому ее можно легко опустить.
+- Глава 11 в первую очередь касается организации компьютеров и программирования на ассемблере; Однако есть также раздел, в котором представлены векторы Схемы. Можно было бы пропустить материал машинного уровня и покрыть только векторы с незначительным неблагоприятным воздействием.
+- Глава 12 может быть опущена без серьезного влияния на последующие главы. 
+- Глава 13 делится примерно на две половины: элементарные структуры данных (стеки и очереди) и расширенную структуру данных (красно-черные деревья). Вы можете остановиться после раздела с очередями, если вам не нужен более продвинутый материал.
+- В главе 14 имеется большой раздел о том, как реализовано объектно-ориентированное программирование, которое можно опустить без потери непрерывности. Вы можете перейти от Главы 7 к векторному материалу в Главе 11, если вы остановитесь после раздела с очередями в Главе 13. (Глава 8 имеет решающее значение для материала красно-черного дерева в Главе 13, а Глава 9 имеет решающее значение для Главы 14 .)
+
+- Chapter 10 has only weak ties to the later chapters, so it can be omitted easily. 
+- Chapter 11 is primarily concerned with computer organization and assembly language programming; however, there is also a section introducing Scheme’s vectors. It would be possible to skip the machine-level material and cover just the vectors with only minor adverse impact. 
+- Chapter 12 can be omitted without serious impact on the later chapters. 
+- Chapter 13 divides roughly into two halves: elementary data structures (stacks and queues) and an advanced data structure (red-black trees). You can stop after the queues section if you don’t want the more advanced material. 
+- Chapter 14 has a large section on how object-oriented programming is implemented, which can be omitted without loss of continuity. You can skip straight from Chapter 7 to the vector material in Chapter 11, provided you stop after the queues section in Chapter 13. (Chapter 8 is crucial for the red-black tree material in Chapter 13, and Chapter 9 is crucial for Chapter 14.)
+
+Все упражнения, отличные от тех, которые содержатся в отдельных разделах «обзорные проблемы» в конце каждой главы, являются неотъемлемой частью текста. Во многих случаях пропуски по ним приводят к потере непрерывности или к упущению некоторых идей или языковых признаков, представленных в упражнении. Таким образом, как правило, даже если вы не назначаете упражнения, вы должны считать их частью чтения.
+
+All exercises, other than those in the separate “review problems” section at the end of each chapter, are an integral part of the text. In many cases skipping over them will cause loss of continuity, or omission of some idea or language feature introduced in the exercise. Thus as a general rule, even when you don’t assign the exercises, you should consider them part of the reading.
+
+### Благодарности
+
+### Acknowledgments
+
+Поскольку проект написания этой книги продлился в течение нескольких лет, у многих чрезвычайно полезных людей была возможность дать нам руку, а у трех слегка дезорганизованных людей (авторов) была возможность потерять некоторые из них. Поэтому, прежде чем мы доберемся до всех людей, которым нам удалось уследить, мы хотели бы поблагодарить и извиниться перед анонимными другими, которые проскочили через трещины. Кроме того, мы хотели бы сделать стандартное заявление об отказе: люди, перечисленные здесь, заслуживают большую часть кредита, но абсолютно никакой вины. Если ничего больше, мы решили проигнорировать некоторые полезные советы, которые они предложили.
+
+Because the project of writing this book has extended over several years, many extremely helpful people have had the opportunity to give us a hand, and three slightly disorganized people (the authors) have had the opportunity to lose track of a few of them. So, before we get to all the people we managed to keep track of, we’d like to thank and apologize to the anonymous others who have slipped through the cracks. Also, we’d like to make the standard disclaimer: the people listed here deserve much of the credit, but absolutely none of the blame. If nothing else, we chose to ignore some of the good advice they offered.
+
+В этом тексте использовались повторные тесты Тимом Колберном и Китом Пирсом в Университете Миннесоты в Дулуте, Майком Хвиддстеном, Чарли Шеффером и Дэвидом Вулфом в Колледже Густава Адольфа.
+
+This text has benefited from repeated class testing by Tim Colburn and Keith Pierce at the University of Minnesota at Duluth, and by Mike Hvidsten, Charley Sheaffer, and David Wolfe at Gustavus Adolphus College.
+
+В этом тексте использовались повторные тесты Тимом Колберном и Китом Пирсом в Университете Миннесоты в Дулуте, Майком Хвиддстеном, Чарли Шеффером и Дэвидом Вулфом в Колледже Густава Адольфа.
+
+The ever-patient students at these two institutions also provided many valuable bug reports and suggestions. We’d particularly like to mention Rebekah Bloemker, Kristina Bovee, Gene Boyer, Jr., Brian Choc, Blaine Conklin, Scott Davis, Steve Davis, DeAnn DeLoach, John Engebretson, Lars Ericson, Melissa Evans, Bryan Kaehler, Andrew Kay, Tim Larson, Milo Martin, Jason Molesky, Oskar Norlander, Angela Peck, Ted Rice, Antony Sargent, Robert Shueey, Henrik Thorsell, Mark Tomforde, Dan Vanorny, and Cory Weinrich.
+
+В этом тексте использовались повторные тесты Тимом Колберном и Китом Пирсом в Университете Миннесоты в Дулуте, Майком Хвиддстеном, Чарли Шеффером и Дэвидом Вулфом в Колледже Густава Адольфа.
+
+We received lots of valuable feedback from reviewers retained by the publishers. In addition to some who remained anonymous, these include Tim Colburn of the University of Minnesota at Duluth, Timothy Fossum of the University of Wisconsin at Parkside, Chris Haynes of Indiana University, Tim Hickey of Brandeis University, Rhys Price Jones of Oberlin College, Roger Kirchner of Carleton College, Stuart A. Kurtz of the University of Chicago, Keith Pierce of the University of Minnesota at Duluth, and John David Stone of Grinnell College.
+
+Наконец, разные категории людей внесли полезные предложения, не входя ни в одну из ранних категорий: Хэл Абельсон и Боб Гиван из Массачусетского технологического института, Теодора Хейпперина и Кэрол Моор.
+
+Finally, a miscellaneous category of people made helpful suggestions without falling into any of the earlier categories: Hal Abelson and Bob Givan of MIT, Theodore Hailperin, and Carol Mohr.
+
+Мы хотели бы передать большое спасибо «Спасибо!» Всем вышеперечисленным людям, которые внесли свой вклад непосредственно в книгу, а также членам семьи и коллегам, которые косвенно способствовали их поддержке и поощрению.
+
+We would like to extend a great big “Thanks!” to all the above people who contributed directly to the book, and also to the family members and colleagues who contributed indirectly through their support and encouragement.
+
+Наконец, мы должны упомянуть некоторых гигантов, на чьих плечах мы стоим. Мы все многому научились у Хэла Абелсона и Джерри Суссмана из Массачусетского технологического института - одного из нас в качестве их ученика, всех нас, учеников их учебников [2]. Любой, кто знаком с их книгой, увидит много эхо в нашей. Самым значительным новым ингредиентом, который мы добавили к их рецепту, является взаимодействие доказывания с программированием, которое мы узнали от Боба Флойда и Джона МакКарти в Стэнфорде.
+
+Finally, we should mention some of the giants on whose shoulders we are standing. We all learned a great deal from Hal Abelson and Gerry Sussman of MIT—one of us as a student of theirs, all of us as students of their textbook [2]. Anyone familiar with their book will see plenty of echos in ours. The most significant new ingredient we added to their recipe is the interplay of proving with programming—which we learned from Bob Floyd and John McCarthy at Stanford.
+
+*Макс Хейлперин*
+*Барбара Кайзер*
+*Карл Найт*
+
+*Max Hailperin*
+*Barbara Kaiser*
+*Karl Knight*
