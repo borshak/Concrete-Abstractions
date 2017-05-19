@@ -75,6 +75,25 @@ How is the last version related to the previous two? In fact it is equivalent to
 
 Before we write a program for the computer to play Nim with a human user, we must first decide which version we want to play. We’ve chosen to concentrate on the two-pile version, with the winner being the player who takes the last coin. As the above discussion suggests, it doesn’t matter whether we actually play with two piles of coins or, instead, use a chocolate bar. When we play with the computer, we presumably won’t use either physical piles or a chocolate bar, but rather some third option better suited to the computer’s capabilities. To get a feel for how to play Nim, find a partner and play a few games. (We disclaim all responsibility if you choose the chocolate bar version.) As you play, think about how you might write a program that could play Nim with you.
 
+What type of data will such a program need? If you think about how you played, you will see that you and your partner started with a particular configuration of coins and took turns transforming the current configuration into a new configuration by making legal moves. The configuration of the coins in the two piles described the state (or condition) of the game at a given time. For this reason, we will call the configurations game states; they are our new data type. That is, we will arrange things so that we can pass a game state into a procedure as an argument or return a game state as the result of a procedure, just as we can with any other type of value. That way, the transformation you do in making a move can be a procedure. Game states can be physically represented by two piles of coins, which we call the first pile and the second pile.
+
+Next, find a third person to be a gamekeeper and play another game with your partner. This time, instead of physically removing coins from piles, have the gamekeeper do all the work. The gamekeeper should keep track of the individual game states; you and your partner will give him directions and ask him questions. As you play, concentrate on what directions you give the gamekeeper and what questions you ask. You should discover that you repeatedly ask how many coins there are in a particular pile of the current game state and that you tell the gamekeeper to change to a new game state by removing some number of coins from a particular pile. This tells us that there are at least two operations we need for our data structure. One tells us how many coins are in either one of the piles and the other allows us to “remove” a specified number of coins from a pile, by making a new state with fewer coins in that pile. In Scheme, we could specify these operations as follows:
+
+```scheme
+(size-of-pile game-state p)
+;returns an integer equal to the number of coins in the p-th
+;pile of the game-state
+(remove-coins-from-pile game-state n p)
+;given a Nim game-state, returns a new game state with n
+;fewer coins in pile p
+```
+We will also need an operation that creates a new game state with a specified number of coins in each pile. This operation is what is used to set up an initial game state:
+
+```scheme
+(make-game-state n m)
+;returns a game state with n coins in the first pile
+;and m coins in the second pile
+```
 
 
 
